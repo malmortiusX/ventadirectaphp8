@@ -1,0 +1,131 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:10
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-24-hours-calls-service:before { content: "\f100"; }
+.flaticon-add-to-shopping-basket:before { content: "\f101"; }
+.flaticon-add-to-shopping-cart-e-commerce-button:before { content: "\f102"; }
+.flaticon-adding-to-shopping-cart-e-commerce-button-with-down-arrow:before { content: "\f103"; }
+.flaticon-archive-drawers-furniture:before { content: "\f104"; }
+.flaticon-atm-cash-dollars-bill:before { content: "\f105"; }
+.flaticon-bars-code-search:before { content: "\f106"; }
+.flaticon-calculator:before { content: "\f107"; }
+.flaticon-calculator-1:before { content: "\f108"; }
+.flaticon-calculator-with-ticket-paper:before { content: "\f109"; }
+.flaticon-call-center-woman:before { content: "\f10a"; }
+.flaticon-circular-arrows-couple:before { content: "\f10b"; }
+.flaticon-close-rectangular-commercial-signal:before { content: "\f10c"; }
+.flaticon-code-search:before { content: "\f10d"; }
+.flaticon-coins-stacks:before { content: "\f10e"; }
+.flaticon-commercial-code:before { content: "\f10f"; }
+.flaticon-commercial-coupon-scissors-in-broken-line-square:before { content: "\f110"; }
+.flaticon-commercial-event-on-calendar:before { content: "\f111"; }
+.flaticon-commercial-machine:before { content: "\f112"; }
+.flaticon-commercial-package-outline:before { content: "\f113"; }
+.flaticon-commercial-payment-tools-pen-signing-a-check:before { content: "\f114"; }
+.flaticon-commercial-percentage-discount-label:before { content: "\f115"; }
+.flaticon-commercial-ticket-of-shopping:before { content: "\f116"; }
+.flaticon-commercial-truck:before { content: "\f117"; }
+.flaticon-credit-card:before { content: "\f118"; }
+.flaticon-credit-cards:before { content: "\f119"; }
+.flaticon-cube-outline:before { content: "\f11a"; }
+.flaticon-date-numbers-on-rectangular-hanging-commercial-signal:before { content: "\f11b"; }
+.flaticon-delete-credit-card-commercial-button:before { content: "\f11c"; }
+.flaticon-delete-of-shopping-basket-e-commerce-sign:before { content: "\f11d"; }
+.flaticon-dollars-bills:before { content: "\f11e"; }
+.flaticon-dollars-coins-stack:before { content: "\f11f"; }
+.flaticon-dollars-gift:before { content: "\f120"; }
+.flaticon-e-commerce-like-heart:before { content: "\f121"; }
+.flaticon-e-commerce-locked-rounded-padlock-security-tool:before { content: "\f122"; }
+.flaticon-e-commerce-password-key:before { content: "\f123"; }
+.flaticon-e-commerce-search:before { content: "\f124"; }
+.flaticon-ecommerce-by-phone-or-tablet:before { content: "\f125"; }
+.flaticon-ecommerce-security:before { content: "\f126"; }
+.flaticon-ecommerce-target:before { content: "\f127"; }
+.flaticon-ecommerce-truck-for-delivery:before { content: "\f128"; }
+.flaticon-ecommerce-user-profile:before { content: "\f129"; }
+.flaticon-euro-coins-stack:before { content: "\f12a"; }
+.flaticon-faq-button:before { content: "\f12b"; }
+.flaticon-female-shoe-outline:before { content: "\f12c"; }
+.flaticon-first-place-medal:before { content: "\f12d"; }
+.flaticon-free-delivery-truck-commercial-transportation:before { content: "\f12e"; }
+.flaticon-giftbox-outline:before { content: "\f12f"; }
+.flaticon-hanger:before { content: "\f130"; }
+.flaticon-headset-for-call-service:before { content: "\f131"; }
+.flaticon-international-commercial-communication:before { content: "\f132"; }
+.flaticon-international-e-commerce:before { content: "\f133"; }
+.flaticon-junk-food-soda-glass-and-burger:before { content: "\f134"; }
+.flaticon-label-commercial-folded-tool-outline:before { content: "\f135"; }
+.flaticon-like:before { content: "\f136"; }
+.flaticon-locked-credit-card:before { content: "\f137"; }
+.flaticon-locked-security-for-money:before { content: "\f138"; }
+.flaticon-locked-window:before { content: "\f139"; }
+.flaticon-new-commercial-star-label:before { content: "\f13a"; }
+.flaticon-off-label:before { content: "\f13b"; }
+.flaticon-open-commercial-rectangular-signal:before { content: "\f13c"; }
+.flaticon-package-box:before { content: "\f13d"; }
+.flaticon-package-box-on-a-cart-for-transport:before { content: "\f13e"; }
+.flaticon-paid:before { content: "\f13f"; }
+.flaticon-paying-with-credit-card:before { content: "\f140"; }
+.flaticon-percentage-commercial-ticket:before { content: "\f141"; }
+.flaticon-percentage-label:before { content: "\f142"; }
+.flaticon-phone-commercial-assistance:before { content: "\f143"; }
+.flaticon-phone-e-commerce:before { content: "\f144"; }
+.flaticon-pipe-outline:before { content: "\f145"; }
+.flaticon-placeholder-outline:before { content: "\f146"; }
+.flaticon-pounds-coins-stack:before { content: "\f147"; }
+.flaticon-price-commercial-label:before { content: "\f148"; }
+.flaticon-rectangle-of-commercial-signal-on-a-pole:before { content: "\f149"; }
+.flaticon-sale-rectangular-commercial-signal:before { content: "\f14a"; }
+.flaticon-saving-pig:before { content: "\f14b"; }
+.flaticon-searching-a-store:before { content: "\f14c"; }
+.flaticon-secure-shopping:before { content: "\f14d"; }
+.flaticon-shopping-bag-with-dollar-sign:before { content: "\f14e"; }
+.flaticon-shopping-basket-commercial-tool:before { content: "\f14f"; }
+.flaticon-shopping-cart:before { content: "\f150"; }
+.flaticon-shopping-cart-button-finger-tap:before { content: "\f151"; }
+.flaticon-shopping-cart-moving-symbol:before { content: "\f152"; }
+.flaticon-shopping-cart-on-monitor-screen:before { content: "\f153"; }
+.flaticon-shopping-cart-outline:before { content: "\f154"; }
+.flaticon-speaker-audio-tool-outline:before { content: "\f155"; }
+.flaticon-star-outline-with-dollar-sign-inside:before { content: "\f156"; }
+.flaticon-store:before { content: "\f157"; }
+.flaticon-substracting-of-shopping-cart:before { content: "\f158"; }
+.flaticon-subtract-of-shopping-cart:before { content: "\f159"; }
+.flaticon-t-shirt-outline:before { content: "\f15a"; }
+.flaticon-timer-or-chronometer:before { content: "\f15b"; }
+.flaticon-unlocked-circular-padlock:before { content: "\f15c"; }
+.flaticon-verified-commercial-list:before { content: "\f15d"; }
+.flaticon-verified-credit-card:before { content: "\f15e"; }
+.flaticon-verified-protection:before { content: "\f15f"; }
+.flaticon-video-camera:before { content: "\f160"; }
+.flaticon-wallet:before { content: "\f161"; }
+.flaticon-wallet-of-rounded-female-design:before { content: "\f162"; }
+.flaticon-yens-coins-stack:before { content: "\f163"; }

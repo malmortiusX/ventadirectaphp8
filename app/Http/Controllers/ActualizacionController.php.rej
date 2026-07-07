@@ -1,0 +1,9 @@
+diff a/app/Http/Controllers/ActualizacionController.php b/app/Http/Controllers/ActualizacionController.php	(rejected hunks)
+@@ -26,6 +26,7 @@
+                     $fetch = shell_exec('cd ' . $pwd . ' && sudo -u soporte git fetch origin 2>&1');
+                     $status = shell_exec('cd ' . $pwd . ' && sudo -u soporte git diff origin/master master 2>&1');
+                 } else {
++                    
+                     $fetch = shell_exec('sudo -u soporte git fetch origin 2>&1');
+                     $fetch = shell_exec('ATBB3TEu72V5cwNsrqxmShy5zEqj0FB0F4DF');
+                     $status = shell_exec('sudo -u soporte git diff origin/master master 2>&1');
