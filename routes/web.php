@@ -46,6 +46,7 @@ Route::get('/abonos', 'AbonosController@index')->name('abonos.index');
 Route::get('/abonos/nuevo/{valor?}', 'AbonosController@create')->name('abonos.create');
 Route::get('/abonos/recepcion', 'AbonosController@recepcion')->name('abonos.recepcion');
 
+
 Route::view('/correos/pedidoEnRuta', 'correos.pedidoEnRuta');
 
 Route::get('/productos', 'ProductosController@index')->name('productos.index');
@@ -72,6 +73,9 @@ Route::get('/actualizar', 'ActualizacionController@show')->name('actualizar');
 Route::post('/actualizar', 'ActualizacionController@update');
 Route::get('/ipbd', 'ActualizacionController@ipbd')->name('ipbd');
 Route::post('/ipbd', 'ActualizacionController@ipbdupdate');
+
+Route::get('/registro-facturas-anuladas', 'FacturasAnuladasController@index')->name('registro-facturas-anuladas.index');
+Route::post('/registro-facturas-anuladas', 'FacturasAnuladasController@store')->name('registro-facturas-anuladas.store');
 
 Route::get('/encuesta', 'EncuestaController@show')->name('encuesta.show');
 
