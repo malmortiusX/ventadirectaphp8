@@ -26,6 +26,7 @@ Route::get('/external-storage/{ruta}', 'ArchivosExternosController')->where(['ru
 
 Route::get('/login', 'AuthController@login')->name('auth.login');
 Route::post('/login', 'AuthController@authentication')->name('auth.authentication');
+Route::get('/login/captcha', 'AuthController@captcha')->name('auth.captcha');
 Route::get('/logout', 'AuthController@logout')->name('auth.logout');
 Route::get('/dashboard', 'DashboardController')->name('dashboard');
 Route::get('/pedidos', 'PedidosController@index')->name('pedidos.index');

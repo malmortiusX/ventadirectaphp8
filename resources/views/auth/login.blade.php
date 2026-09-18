@@ -86,6 +86,31 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col s12 mb-1">
+                            <div class="mb-1" style="display: flex; align-items: center; gap: 10px;">
+                                <img id="captcha-image" src="data:image/png;base64,{{ $captchaImage }}" alt="Código de verificación" style="border: 1px solid #ccc; border-radius: 4px;">
+                                <a href="#" id="captcha-refresh" title="Generar otro código" style="color: var(--mdc-theme-secondary);">
+                                    <i class="fas fa-sync-alt"></i>
+                                </a>
+                            </div>
+                            <label class="mdc-text-field mdc-text-field--outlined @error('captcha') mdc-text-field--invalid @enderror">
+                                <input type="text" class="mdc-text-field__input" aria-labelledby="lbl_captcha" name="captcha" id="captcha" autocomplete="off" required>
+                                <span class="mdc-notched-outline">
+                                    <span class="mdc-notched-outline__leading"></span>
+                                    <span class="mdc-notched-outline__notch">
+                                        <span class="mdc-floating-label" id="lbl_captcha">Código de verificación</span>
+                                    </span>
+                                    <span class="mdc-notched-outline__trailing"></span>
+                                </span>
+                            </label>
+                            <div class="mdc-text-field-helper-line">
+                                <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="captcha-helper-id" aria-hidden="true">
+                                    @error('captcha')
+                                        {{ $message }}
+                                    @enderror
+                                </div>
+                            </div>
+                        </div>
                         <div class="col s12 mb-2">
                             <div class="mdc-touch-target-wrapper">
                                 <div class="mdc-checkbox mdc-checkbox--touch">
@@ -158,6 +183,14 @@
                 $('#submit').attr('disabled', 'disabled');
                 $('#submit .send').hide();
                 $('#submit .sending').show();
+            });
+
+            $('#captcha-refresh').on('click', function(e) {
+                e.preventDefault();
+                $.get('{{ route('auth.captcha') }}', function(data) {
+                    $('#captcha-image').attr('src', 'data:image/png;base64,' + data.image);
+                    $('#captcha').val('');
+                });
             });
         });
     </script>
